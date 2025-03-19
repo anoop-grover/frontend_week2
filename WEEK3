@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-gray-400 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-6 rounded-lg">
+        <div class="pl-15">
+            <img class="rounded-full h-30 w-30 border-5 border-blue-900" src="https://www.fakepersongenerator.com/Face/female/female1022923518860.jpg" alt="person_image">
+        </div>
+        <br>
+        <h2 class="font-bold text-center">Mark Johnson</h2>
+        <p class="text-center">Senior Software Engineer</p>
+        <br>
+        <div class="flex justify-around text-blue-700 font-bold">
+            <p class="">5.2K</p>
+            <P class="">892</P>
+        </div>
+        <div class="flex justify-around">
+            <p class="">Connections</p>
+            <p class="">Endorsements</p>
+        </div>
+        <br>
+        <div class="flex justify-around space-x-4">
+            <button class="px-4 py-2 bg-blue-700 w-full border text-white">Connect</button>
+            <button class="px-4 py-2 bg-white text-blue-700 w-full border">Message</button>
+        </div>
+        <br>
+        <div class="flex justify-center space-x-2 pl-3 pr-3">
+            <button class="px-4 py-2 bg-gray-300 w-full">React.js</button>
+            <button class="px-4 py-2 bg-gray-300 w-full">Node.js</button>
+            <button class="px-4 py-2 bg-gray-300 w-full ">AWS</button>
+        </div>
+    </div>
+</body>
+</html>
